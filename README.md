@@ -216,8 +216,6 @@ The analysis investigates several aspects of Falcon 9 launch and landing perform
 * Geographic characteristics of launch sites.
 * Machine learning predictions of first-stage landing success.
 
-> **Important:** The final README should replace these general statements with the specific findings and numerical results produced by the executed notebooks.
-
 ---
 
 # Technologies
