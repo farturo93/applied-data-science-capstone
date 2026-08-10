@@ -79,7 +79,7 @@ The project uses API-based data collection to retrieve structured launch informa
 
 Notebook:
 
-`Data-Collection-API.ipynb`
+`notebooks/01-data-collection-api.ipynb`
 
 ### Web Scraping
 
@@ -87,7 +87,7 @@ Additional launch information was collected through web scraping.
 
 Notebook:
 
-`Data-Collection-with-Web-Scrapping.ipynb`
+`notebooks/02-data-collection-web-scraping.ipynb`
 
 ---
 
@@ -104,7 +104,7 @@ The data-wrangling stage prepares the launch records for:
 
 Notebook:
 
-`Data-Wrangling.ipynb`
+`notebooks/03-data-wrangling.ipynb`
 
 ---
 
@@ -116,7 +116,7 @@ The project uses visual analysis to examine launch patterns and relationships am
 
 Notebook:
 
-`Complete-the-EDA-with-Visualization.ipynb`
+`notebooks/04-eda-visualization.ipynb`
 
 ---
 
@@ -135,11 +135,11 @@ The analysis demonstrates practical use of:
 
 Notebook:
 
-`Complete-the-EDA-with-SQL.ipynb`
+`notebooks/05-eda-sql.ipynb`
 
 Database:
 
-`my_data1.db`
+`data/database/my_data1.db`
 
 ---
 
@@ -153,7 +153,7 @@ Folium was used for geospatial analysis and visualization of launch sites and re
 
 Notebook:
 
-`Interactive-Visual-Analytics-with-Folium.ipynb`
+`notebooks/06-folium-geospatial-analysis.ipynb`
 
 ---
 
@@ -173,7 +173,7 @@ The workflow includes:
 
 Notebook:
 
-`Complete-the-Machine-Learning-Prediction.ipynb`
+`notebooks/07-machine-learning-prediction.ipynb`
 
 ### Machine Learning Results
 
@@ -199,7 +199,7 @@ The dashboard provides interactive visual analysis of launch characteristics and
 
 Application:
 
-`Build-an-Interactive-Dashboard-with-Plotly-Dash.py`
+`dashboard/app.py`
 
 ---
 
