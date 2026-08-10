@@ -179,8 +179,6 @@ Notebook:
 
 The machine learning analysis compares multiple classification approaches and evaluates their ability to predict first-stage landing success.
 
-> **Note:** The final numerical model metrics should be reported here directly from the executed machine-learning notebook so that the README remains consistent with the analysis.
-
 Recommended results to display:
 
 | Metric                |                             Result |
