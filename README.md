@@ -185,11 +185,11 @@ Recommended results to display:
 
 | Metric                |                             Result |
 | --------------------- | ---------------------------------: |
-| Best-performing model |              *Add notebook result* |
-| Test accuracy         |              *Add notebook result* |
-| Precision             | *Add notebook result if available* |
-| Recall                | *Add notebook result if available* |
-| F1 score              | *Add notebook result if available* |
+| Best-performing model |                      Decision Tree |
+| Test accuracy         |                              94.4% |
+| Precision             |                              92.3% |
+| Recall                |                               100% |
+| F1 score              |                                96% |
 
 ---
 
