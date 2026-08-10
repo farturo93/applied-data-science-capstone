@@ -268,21 +268,31 @@ applied-data-science-capstone/
 │
 ├── README.md
 │
-├── Data-Collection-API.ipynb
-├── Data-Collection-with-Web-Scrapping.ipynb
-├── Data-Wrangling.ipynb
-├── Complete-the-EDA-with-SQL.ipynb
-├── Complete-the-EDA-with-Visualization.ipynb
-├── Interactive-Visual-Analytics-with-Folium.ipynb
-├── Complete-the-Machine-Learning-Prediction.ipynb
+├── data/
+│   ├── DATABASE/
+│   │   └── my_data1.db
+│   │
+│   └── processed/
+│       ├── spacex_launch_dash.csv
+│       └── spacex_launch_geo.csv
 │
-├── Build-an-Interactive-Dashboard-with-Plotly-Dash.py
+├── notebooks/
+│   ├── 01-data-collection-api.ipynb
+│   ├── 02-data-collection-web-scraping.ipynb
+│   ├── 03-data-wrangling.ipynb
+│   ├── 04-eda-sql.ipynb
+│   ├── 05-eda-visualization.ipynb
+│   ├── 06-folium-geospatial-analysis.ipynb
+│   └── 07-machine-learning-prediction.ipynb
 │
-├── my_data1.db
-├── spacex_launch_dash.csv
-├── spacex_launch_geo.csv
+├── dashboard/
+│   ├── app.py
+│   └── README.md
 │
-└── Applied Data Science Capstone.pdf
+├── reports/
+│   └── presentation/
+│       └── capstone-presentation.pdf
+
 ```
 
 ---
