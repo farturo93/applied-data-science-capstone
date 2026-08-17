@@ -5,6 +5,7 @@ from dash import html
 from dash import dcc
 from dash.dependencies import Input, Output
 import plotly.express as px
+import os
 
 # Read the airline data into pandas dataframe
 DATA_PATH = os.path.join(
