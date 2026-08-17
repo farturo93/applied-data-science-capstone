@@ -183,19 +183,35 @@ Notebook:
 
 The machine learning analysis compares multiple classification approaches and evaluates their ability to predict first-stage landing success.
 
-The best performing model was K-Nearest Neighbors with an accuracy of 94.4%.
+| Metric                |                             Result |
+| --------------------- | ---------------------------------: |
+| Model                 |                Logistic Regression |
+| Test accuracy         |                                83% |
+| Precision             |                                87% |
+| Recall                |                                83% |
+| F1 score              |                                81% |
+| --------------------- | ---------------------------------: |
+| Model                 |                                SVC |
+| Test accuracy         |                                83% |
+| Precision             |                                87% |
+| Recall                |                                83% |
+| F1 score              |                                81% |
+| --------------------- | ---------------------------------: |
+| Model                 |                      Decision Tree |
+| Test accuracy         |                                72% |
+| Precision             |                                71% |
+| Recall                |                                72% |
+| F1 score              |                                72% |
+| --------------------- | ---------------------------------: |
+| Model                 |                                KNN |
+| Test accuracy         |                                83% |
+| Precision             |                                87% |
+| Recall                |                                83% |
+| F1 score              |                                81% |
 
 ![description](assets/Model_Accuracy.png)
 
-![description](assets/Confussion_Matrix.png)
-
-| Metric                |                             Result |
-| --------------------- | ---------------------------------: |
-| Best-performing model |                      Decision Tree |
-| Test accuracy         |                              94.4% |
-| Precision             |                              92.3% |
-| Recall                |                               100% |
-| F1 score              |                                96% |
+![description](assets/Confusion_Matrix.png)
 
 ---
 
@@ -337,7 +353,7 @@ source .venv/bin/activate
 ## 3. Install dependencies
 
 ```bash
-pip install pandas numpy matplotlib seaborn plotly folium scikit-learn requests beautifulsoup4 dash jupyter
+pip install -r requirements.txt
 ```
 
 ## 4. Launch Jupyter Notebook
@@ -361,7 +377,7 @@ Execute the notebooks in the following order:
 ## 5. Run the dashboard
 
 ```bash
-python Build-an-Interactive-Dashboard-with-Plotly-Dash.py
+python dashboard/app.py
 ```
 
 The dashboard requires the supporting CSV data included in the repository.
@@ -372,7 +388,7 @@ The dashboard requires the supporting CSV data included in the repository.
 
 The complete project presentation is available in:
 
-**`Applied Data Science Capstone.pdf`**
+**`reports/capstone-presentation.pdf`**
 
 The presentation summarizes the project methodology, exploratory analysis, interactive visualizations, machine learning workflow, results, and conclusions.
 
