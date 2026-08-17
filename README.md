@@ -198,10 +198,10 @@ The machine learning analysis compares multiple classification approaches and ev
 | F1 score              |                                81% |
 | --------------------- | ---------------------------------: |
 | Model                 |                      Decision Tree |
-| Test accuracy         |                                72% |
-| Precision             |                                71% |
-| Recall                |                                72% |
-| F1 score              |                                72% |
+| Test accuracy         |                                94% |
+| Precision             |                                95% |
+| Recall                |                                94% |
+| F1 score              |                                94% |
 | --------------------- | ---------------------------------: |
 | Model                 |                                KNN |
 | Test accuracy         |                                83% |
@@ -212,6 +212,19 @@ The machine learning analysis compares multiple classification approaches and ev
 ![description](assets/Model_Accuracy.png)
 
 ![description](assets/Confusion_Matrix.png)
+
+## Experiment Tracking
+
+This project uses [MLflow](https://mlflow.org/) for experiment tracking,
+model logging, and artifact management.
+
+All training runs, hyperparameters, evaluation metrics, and model artifacts
+are logged and reproducible via the `mlruns/` directory.
+
+To explore the experiment locally:
+```bash
+mlflow ui --backend-store-uri sqlite:///mlflow.db
+```
 
 ---
 
@@ -291,6 +304,19 @@ The project uses the following technologies and tools:
 applied-data-science-capstone/
 │
 ├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── assets/
+│   ├── Confusion_Matrix.png
+│   ├── Dashboard.png
+│   ├── Folium.png
+│   ├── LaunchSite.png
+│   └── Model_Accuracy.png
+│
+├── dashboard/
+│   ├── app.py
+│   └── README.md
 │
 ├── data/
 │   ├── DATABASE/
@@ -300,6 +326,8 @@ applied-data-science-capstone/
 │       ├── spacex_launch_dash.csv
 │       └── spacex_launch_geo.csv
 │
+├── mlruns/
+│
 ├── notebooks/
 │   ├── 01-data-collection-api.ipynb
 │   ├── 02-data-collection-web-scraping.ipynb
@@ -308,10 +336,6 @@ applied-data-science-capstone/
 │   ├── 05-eda-visualization.ipynb
 │   ├── 06-folium-geospatial-analysis.ipynb
 │   └── 07-machine-learning-prediction.ipynb
-│
-├── dashboard/
-│   ├── app.py
-│   └── README.md
 │
 ├── reports/
 │   └── presentation/
