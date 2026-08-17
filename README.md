@@ -4,6 +4,8 @@ An end-to-end data science and machine learning project analyzing SpaceX Falcon 
 
 This project was completed as the final project for the **IBM Data Science Professional Certificate – Applied Data Science Capstone**.
 
+![description](assets/LaunchSite.png)
+
 ---
 
 ## Project Overview
@@ -155,6 +157,8 @@ Notebook:
 
 `notebooks/06-folium-geospatial-analysis.ipynb`
 
+![description](assets/Folium.png)
+
 ---
 
 ## 6. Machine Learning
@@ -179,7 +183,11 @@ Notebook:
 
 The machine learning analysis compares multiple classification approaches and evaluates their ability to predict first-stage landing success.
 
-Recommended results to display:
+The best performing model was K-Nearest Neighbors with an accuracy of 94.4%.
+
+![description](assets/Model_Accuracy.png)
+
+![description](assets/Confussion_Matrix.png)
 
 | Metric                |                             Result |
 | --------------------- | ---------------------------------: |
@@ -200,6 +208,8 @@ The dashboard provides interactive visual analysis of launch characteristics and
 Application:
 
 `dashboard/app.py`
+
+![description](assets/Dashboard.png)
 
 ---
 
