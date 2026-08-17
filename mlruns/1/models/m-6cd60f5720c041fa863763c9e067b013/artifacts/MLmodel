@@ -1,0 +1,23 @@
+artifact_path: file:c:/Users/f_art/Documents/Coursera/capstone/mlruns/1/models/m-6cd60f5720c041fa863763c9e067b013/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: pickle
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+mlflow_version: 3.15.1
+model_id: m-6cd60f5720c041fa863763c9e067b013
+model_size_bytes: 49049
+model_uuid: m-6cd60f5720c041fa863763c9e067b013
+prompts: null
+run_id: 18a88f6499ff4c4b931fa415b568803c
+utc_time_created: '2026-08-17 21:35:01.399249'
