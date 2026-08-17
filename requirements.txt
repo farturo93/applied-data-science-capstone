@@ -1,0 +1,11 @@
+pandas>=1.5,<3.0
+numpy>=1.23,<2.0
+matplotlib>=3.6
+seaborn>=0.12
+plotly>=5.10
+folium>=0.14
+scikit-learn>=1.1
+requests>=2.28
+beautifulsoup4>=4.11
+dash>=2.9
+jupyter>=1.0
