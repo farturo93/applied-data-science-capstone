@@ -7,7 +7,11 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 
 # Read the airline data into pandas dataframe
-spacex_df = pd.read_csv("spacex_launch_dash.csv")
+DATA_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "..", "data", "processed", "spacex_launch_dash.csv"
+)
+spacex_df = pd.read_csv(DATA_PATH)
 max_payload = spacex_df['Payload Mass (kg)'].max()
 min_payload = spacex_df['Payload Mass (kg)'].min()
 
