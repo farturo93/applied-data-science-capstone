@@ -225,6 +225,8 @@ To explore the experiment locally:
 ```bash
 mlflow ui --backend-store-uri sqlite:///mlflow.db
 ```
+Then open http://127.0.0.1:5000
+
 
 ---
 
