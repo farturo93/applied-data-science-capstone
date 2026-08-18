@@ -183,31 +183,12 @@ Notebook:
 
 The machine learning analysis compares multiple classification approaches and evaluates their ability to predict first-stage landing success.
 
-| Metric                |                             Result |
-| --------------------- | ---------------------------------: |
-| Model                 |                Logistic Regression |
-| Test accuracy         |                                83% |
-| Precision             |                                87% |
-| Recall                |                                83% |
-| F1 score              |                                81% |
-| --------------------- | ---------------------------------: |
-| Model                 |                                SVC |
-| Test accuracy         |                                83% |
-| Precision             |                                87% |
-| Recall                |                                83% |
-| F1 score              |                                81% |
-| --------------------- | ---------------------------------: |
-| Model                 |                      Decision Tree |
-| Test accuracy         |                                94% |
-| Precision             |                                95% |
-| Recall                |                                94% |
-| F1 score              |                                94% |
-| --------------------- | ---------------------------------: |
-| Model                 |                                KNN |
-| Test accuracy         |                                83% |
-| Precision             |                                87% |
-| Recall                |                                83% |
-| F1 score              |                                81% |
+| Model      | Test Accuracy      | Precision      | Recall       | F1 Score      |
+| -----------| -------------------|----------------|--------------|---------------|
+|Logistic Regression | 83%        | 87%            | 83%          | 81%           |
+|SVC         | 83%        | 87%            | 83%          | 81%           |
+|Decision Tree | 94%        | 95%            | 94%          | 94%           |  
+|KNN         | 83%        | 87%            | 83%          | 81%           |  
 
 ![description](assets/Model_Accuracy.png)
 
