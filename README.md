@@ -4,7 +4,7 @@ An end-to-end data science and machine learning project analyzing SpaceX Falcon 
 
 This project was completed as the final project for the **IBM Data Science Professional Certificate – Applied Data Science Capstone**.
 
-![description](assets/LaunchSite.png)
+<p align="center"> <img src="assets/LaunchSite.png" width="420" alt="SpaceX Falcon 9 launch site"> </p>
 
 ---
 
@@ -157,7 +157,7 @@ Notebook:
 
 `notebooks/06-folium-geospatial-analysis.ipynb`
 
-![description](assets/Folium.png)
+<p align="center"> <img src="assets/Folium.png" width="750" alt="Folium map of Falcon 9 launch sites"> </p>
 
 ---
 
@@ -190,9 +190,7 @@ The machine learning analysis compares multiple classification approaches and ev
 |Decision Tree | 94%        | 95%            | 94%          | 94%           |  
 |KNN         | 83%        | 87%            | 83%          | 81%           |  
 
-![description](assets/Model_Accuracy.png)
-
-![description](assets/Confusion_Matrix.png)
+<table> <tr> <td width="50%"><img src="assets/Model_Accuracy.png" width="100%" alt="Model accuracy comparison"></td> <td width="50%"><img src="assets/Confusion_Matrix.png" width="100%" alt="Confusion matrix for the best model"></td> </tr> </table>
 
 ## Experiment Tracking
 
@@ -221,8 +219,7 @@ Application:
 
 `dashboard/app.py`
 
-![description](assets/Dashboard.png)
-
+<p align="center"> <img src="assets/Dashboard.png" width="850" alt="Interactive SpaceX launch dashboard"> </p>
 ---
 
 # Key Findings
@@ -309,7 +306,6 @@ applied-data-science-capstone/
 │       ├── spacex_launch_dash.csv
 │       └── spacex_launch_geo.csv
 │
-├── mlruns/
 │
 ├── notebooks/
 │   ├── 01-data-collection-api.ipynb
