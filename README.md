@@ -285,6 +285,7 @@ applied-data-science-capstone/
 │
 ├── README.md
 ├── requirements.txt
+├── LICENSE
 ├── .gitignore
 │
 ├── assets/
@@ -299,7 +300,7 @@ applied-data-science-capstone/
 │   └── README.md
 │
 ├── data/
-│   ├── DATABASE/
+│   ├── database/
 │   │   └── my_data1.db
 │   │
 │   └── processed/
@@ -311,8 +312,8 @@ applied-data-science-capstone/
 │   ├── 01-data-collection-api.ipynb
 │   ├── 02-data-collection-web-scraping.ipynb
 │   ├── 03-data-wrangling.ipynb
-│   ├── 04-eda-sql.ipynb
-│   ├── 05-eda-visualization.ipynb
+│   ├── 04-eda-visualization.ipynb
+│   ├── 05-eda-sql.ipynb
 │   ├── 06-folium-geospatial-analysis.ipynb
 │   └── 07-machine-learning-prediction.ipynb
 │
